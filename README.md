@@ -1,5 +1,7 @@
 # alltheversions
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Qard/alltheversions.svg)](https://greenkeeper.io/)
+
 Do you just *love* it when dependencies make breaking changes in a patch release? Do you live for the mystery and intrigue of never quite knowing if a deploy will blow up in production? Then this is probably not the module for you!
 
 With `alltheversions`, you can run your test suite against--you guessed it--all the versions of your dependencies. You simply create a versions spec file to define what modules and version ranges you want to test against, along with what task you want to run for that particular module--the default being `npm test`.
